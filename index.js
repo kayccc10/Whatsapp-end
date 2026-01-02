@@ -35,5 +35,5 @@ app.post("/webhook", (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(Live Webhook listening on port ${PORT});
+  console.log("Live Webhook is running on port " + PORT);
 });
